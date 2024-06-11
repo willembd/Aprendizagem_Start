@@ -26,6 +26,7 @@ header{
 }
 .nomes{
     margin-top: 300px;
+    margin: 10px;
     padding: 80px;
     background-color: aqua;
     border-radius: 8px;
