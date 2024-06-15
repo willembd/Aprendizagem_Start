@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border-radius:100px;
+    width: 300px;
+}
+.texto{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+main{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+
+}
+.btnvoltar{
+    margin-top: 50px;
+}
