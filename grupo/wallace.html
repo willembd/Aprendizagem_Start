@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallace</title>
+    <style>
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+main{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
+
+img{
+    border-radius:1180px;
+    width: 400px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nome{
+    margin: 0px 50px 20px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-size: 50px;
+}
+
+.paragrafo{
+    margin: 0px 50px 0px 50px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.btnvoltar{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0,5;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+    font-size: 1.5rem;
+}
+
+.btnvoltar:hover {
+    background-color: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4, 
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <img src="../imagens/foto-wallace.jfif" alt="">
+        </div>
+        <div class="texto">
+            <p class="nome">Wallace Modesto da Silva</p>
+            <p class="paragrafo">Apaixonado pelo que o mundo da programção podem nos proporcionar. 
+                Acredito fortemente que a tecnologia é um meio e não o fim, 
+                por isso tenho como foco/objetivo ajudar as empresas a resolver problemas,
+                para que no final possamos alcançar a satisfação dos usuários e, assim,
+                resolver suas necessidades.
+                Atualmente, venho buscando aprimorar minhas soft skills, 
+                pois acredito que ter habilidades básicas bem aprimoradas facilita e muito na evolução
+                pessoal e serve de base para desenvolvimento de hard skills.</p>
+
+            <a class="btnvoltar" href="../index.html">Voltar</a>
+        </div>
+        
+    </main>
+</body>
+</html>
