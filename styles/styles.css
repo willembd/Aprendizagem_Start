@@ -25,8 +25,7 @@ header{
     justify-content: space-evenly;
 }
 .nomes{
-    margin-top: 300px;
-    padding: 80px 40px 80px 40px;
+
     background-color: aqua;
     border-radius: 8px;
     display: flex;
@@ -43,3 +42,39 @@ header{
 #nomesluiz{
     background-color: rgb(0, 219, 29);
 }
+.card-container {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr); grid-column-gap: 15px;
+}
+    .card {
+    margin-top: 300px;
+    padding: 80px 40px 80px 40px;
+    background-color: aqua;
+    border-radius: 8px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 7px; cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2)
+    0px 7px 29px 0px;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    }
+    .card:hover {
+    
+        transform: translateY(-15px);
+    }
+    
+    .card-container:hover > :not(:hover){
+    opacity: 0.5;
+    }
+    a {
+        text-decoration: none; 
+        color: inherit; 
+    }
